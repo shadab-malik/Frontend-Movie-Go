@@ -29,6 +29,6 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    location.href="./FIRST PAGE/Final Page/index.html";
+    location.href="./Final Page/index.html";
     return true;
   }

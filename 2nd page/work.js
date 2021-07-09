@@ -69,7 +69,7 @@ card9.addEventListener('click', function() {
 });
 
 document.querySelector(".logout").addEventListener("click",function(){
-    location.href = "/FIRST PAGE/index.html";
+    location.href = "/index.html";
 });
 
 

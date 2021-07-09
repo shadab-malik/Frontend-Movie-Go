@@ -31,15 +31,15 @@ document.querySelector(".noaccount").addEventListener("click", function(){
 document.querySelector(".forgotPassword").addEventListener("click", function(){
     alert("Contact Us");
     document.querySelector(".popup-login").style.display= "none";
-    location.href="/FIRST PAGE/contact/index.html";
+    location.href="/contact/index.html";
 });
 
 document.querySelector(".contactUs").addEventListener("click",function(){
-    location.href = "/FIRST PAGE/contact/index.html";
+    location.href = "/contact/index.html";
 });
 
 document.querySelector(".aboutUs").addEventListener("click",function(){
-    location.href = "/FIRST PAGE/About Us/index.html";
+    location.href = "/About Us/index.html";
 });
 
 document.querySelector(".authButton1").addEventListener("click",function(){
@@ -81,7 +81,7 @@ signIn.addEventListener("submit",(event)=>{
            const {token} = data;
           if(token){
               localStorage.setItem("jwt", token);
-              location.href="/FIRST PAGE/2nd page/index.html";
+              location.href="/2nd page/index.html";
           }
           else{
               alert("SignIn Again");
@@ -121,7 +121,7 @@ signUp.addEventListener("submit",(event)=>{
          const {token} = data;
         if(token){
             localStorage.setItem("jwt", token);
-            location.href="/FIRST PAGE/2nd page/index.html";
+            location.href="/2nd page/index.html";
         }
         else{
             alert("SignUp Again");

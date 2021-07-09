@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  
+  body {
+    background: #242333;
+    color: white;
+  }
+  
+  .container-1 {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .image {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 16px;
+    border: 6px solid black;
+    transition: 0.3s;
+    padding: 4px 4px;
+  }
+  
+  .text {
+    padding: 25px;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 40vw;
+    height: auto;
+    background: linear-gradient(to bottom left, #ece1df, #feb47b);
+    /* background-color: white; */
+  }
+  .star{
+    color: goldenrod;
+    font-size: 1.5rem;
+  }
+  .star::before{
+      color: black;
+    content: '\2606';   
+    cursor: pointer;
+  }
+  .star.rated::before{
+    color: goldenrod;
+    content: '\2605';
+  }
+  
+  .stars{
+      counter-reset: rateme 0;   
+      font-size: 1.2rem;
+      font-weight: 500;
+  }
+  .star.rated{
+      counter-increment: rateme 1;
+  }
+  .stars::after{
+      content: counter(rateme) '/5';
+  } 
+
+  
+  .select {
+    padding: 20px;
+    margin: 30px;
+    background: linear-gradient(to bottom left, #ece1df, #feb47b);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .common {
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .selectDate input {
+    border-radius: 10px;
+    width: 18vw;
+    height: 5vh;
+  }
+  
+  .selectCity select {
+    border-radius: 10px;
+    width: 18vw;
+    height: 5vh;
+  }
+  
+  .multiplexBoxAhemdabad1 {
+    margin-top: 20px;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .multiplex {
+    padding: 25px;
+    margin: 5px;
+  }
+  .multiplex a {
+    /* text-decoration: underline;
+      color:rgb(221, 29, 29);
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px; */
+    background-color: #c41515;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    width: 122.5px;
+    transition: 0.3s;
+    border-radius: 7px;
+    box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.25),
+      inset 01px 5px 6px rgba(0, 0, 0, 0.25);
+    border: 1px solid black;
+  }
+  .same {
+    margin-top: 20px;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: linear-gradient(to bottom left, #ece1df, #feb47b);
+  }
+  @media only screen and (max-width: 720px) {
+    .container-1 {
+      margin-top: 10vh;
+    }
+    .image-2 {
+      display: none;
+    }
+    .image-1 {
+    }
+  
+    .image {
+      margin-top: -40px;
+      width: 90vw;
+      height: 65vh;
+      border-radius: 16px;
+      border: 3px solid rgb(7, 3, 3);
+      padding: 2px 2px;
+      margin-bottom: 20px;
+    }
+  
+    .text {
+      padding: 20px;
+      font-size: 12px;
+      width: 90vw;
+      border-radius: 7px;
+    }
+  
+    .select {
+      padding: 3px;
+      border-radius: 5px;
+      margin: 20px;
+    }
+  
+    .common {
+      padding: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .selectDate input {
+      border-radius: 7px;
+      width: 128px;
+      height: 5vh;
+    }
+  
+    .selectCity select {
+      border-radius: 7px;
+      width: 128px;
+      height: 5vh;
+    }
+  
+    .multiplex {
+      padding: 12px;
+      margin: 15px;
+    }
+    .multiplex a {
+      padding: 13px;
+      font-size: 3vw;
+      border-radius: 5px;
+    }
+    .same {
+      margin-top: 35px;
+    }
+  }
+  

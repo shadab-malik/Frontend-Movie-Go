@@ -4,7 +4,7 @@ MOVIE-GO
 Movie Booking Application
 
 # Hosted URL
-https://movie-go-6e323c.netlify.app/
+https://movie-go-f0a1e3.netlify.app/
 
 #screenshots
 https://onedrive.live.com/view.aspx?resid=E7EFB2CA73266C80!342&ithint=file%2cdocx&authkey=!AESYA5Wg6lfnkFM

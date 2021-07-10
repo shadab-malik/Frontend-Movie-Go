@@ -108,7 +108,7 @@
 }
 
 .popup-login-content {
-  height: 570px;
+  height: 560px;
   width: 450px;
   background: rgba(250, 247, 247, 0.782);
   padding: 50px;
@@ -116,8 +116,8 @@
   position: relative;
 }
 .popup-login-content .icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 35px;
 }
 input {
   font-size: 20px;
@@ -152,7 +152,7 @@ input {
 }
 .authButton1 ,.authButton2, .authButton3, .authButton4{
   width: 35%;
-  margin: 15px;
+  margin: 10px;
   cursor: pointer;
 }
 
@@ -166,7 +166,7 @@ input {
   margin-top: 25px;
 }
 .copyright {
-  margin-top: 20px;
+  margin-top: 5px;
   font-size: 12px;
 }
 .popup-signup {
@@ -183,17 +183,17 @@ input {
 }
 
 .popup-signup-content {
-  height: 620px;
+  height: 650px;
   width: 500px;
   background: rgba(250, 247, 247, 0.782);
-  padding: 50px;
+  padding: 70px;
   border-radius: 07px;
   position: absolute;
 }
 
 .popup-signup-content input {
   font-size: 17px;
-  margin: 15px auto;
+  margin: 20px auto;
   display: block;
   width: 100%;
   padding: 11px;
@@ -203,7 +203,7 @@ input {
 
 .popup-signup-content .close2 {
   position: absolute;
-  top: 25px;
+  top: 30px;
   right: 25px;
   background: #fff;
   height: 20px;
@@ -213,9 +213,9 @@ input {
 }
 
 .popup-signup-content .icon {
-  margin-top: 7px;
+  margin-top: 8px;
   width: 50px;
-  height: 45px;
+  height: 50px;
   
 }
 

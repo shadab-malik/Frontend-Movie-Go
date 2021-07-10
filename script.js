@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const apiUrl = "https://movie-go-95223.herokuapp.com";
+const apiUrl = "https://movie-go-85949.herokuapp.com";
 
 window.addEventListener("load",()=>{
     body.classList.add("visible");
@@ -43,19 +43,19 @@ document.querySelector(".aboutUs").addEventListener("click",function(){
 });
 
 document.querySelector(".authButton1").addEventListener("click",function(){
-    location.href = "https://movie-go-95223.herokuapp.com/auth/google";
+    location.href = "https://movie-go-85949.herokuapp.com/auth/google";
 });
 
 document.querySelector(".authButton2").addEventListener("click",function(){
-    location.href = "https://movie-go-95223.herokuapp.com/auth/facebook";
+    location.href = "https://movie-go-85949.herokuapp.com/auth/facebook";
 });
 
 document.querySelector(".authButton3").addEventListener("click",function(){
-    location.href = "https://movie-go-95223.herokuapp.com/auth/google";
+    location.href = "https://movie-go-85949.herokuapp.com/auth/google";
 });
 
 document.querySelector(".authButton4").addEventListener("click",function(){
-    location.href = "https://movie-go-95223.herokuapp.com/auth/facebook";
+    location.href = "https://movie-go-85949.herokuapp.com/auth/facebook";
 });
 
 const signIn = document.querySelector(".popup-login");

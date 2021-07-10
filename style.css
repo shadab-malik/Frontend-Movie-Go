@@ -243,10 +243,10 @@ input {
     font-size: 10px;
   }
   .boxButton {
-    margin-inline: 20px;
+    margin-inline: 5vw;
     padding: 10px;
     font-size: 13px;
-    width: 19vh;
+    width: 10vh;
   }
   .popup-login-content {
     height: 370px;
@@ -323,7 +323,7 @@ input {
     color: #c41515;
     font-size: 15px;
     padding: 10px;
-    margin-bottom: 65vw;
+    margin-bottom: 38vh;
     border-radius: 8px;
     text-shadow: 0.5px 0.8px black;
   }
